@@ -4,8 +4,8 @@ import { useFilter } from "@/hooks/useFilter"
 import { FilterType } from "@/types/filter-types"
 import styled from "styled-components"
 
-interface FilterByTypeProps {
-
+interface FilterItemProps {
+    selected: boolean
 }
 
 interface FilterItemProps {
